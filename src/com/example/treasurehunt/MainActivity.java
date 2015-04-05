@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
-	static String[][][] answer = new String[40][5][2];
+	static String[][][] answer = new String[26][5][2];
 	static int teamID = 1;
 	
 	@Override
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 			{
 				answer[1][1][0] = "deewar";
 				
-				answer[1][2][1]="MH 14 DV 3703 Wego";
+				answer[1][2][1]="Insert Vehicle number";
 				answer[1][2][0]="river";
 				
 				answer[1][3][1]="GDPI - 1";
@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 			{
 				answer[2][1][0] = "vidya balan";
 				
-				answer[2][2][1]="MH 14 EA 0127 Wego";
+				answer[2][2][1]="Insert Vehicle number";
 				answer[2][2][0]="song";
 				
 				answer[2][3][1]="GDPI - 2";
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 			{
 				answer[3][1][0] = "PK";
 				
-				answer[3][2][1]="MH 14 EB 8978 Duro";
+				answer[3][2][1]="Insert Vehicle number";
 				answer[3][2][0]="peak";
 				
 				answer[3][3][1]="GDPI - 3";
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 			{
 				answer[4][1][0] = "aashiqui 2";
 				
-				answer[4][2][1]="MH 14 DS 5049 Pleasure";
+				answer[4][2][1]="Insert Vehicle number";
 				answer[4][2][0]="wave";
 				
 				answer[4][3][1]="GDPI - 4";
@@ -67,7 +67,7 @@ public class MainActivity extends Activity {
 			{
 				answer[5][1][0] = "sonakshi sinha";
 				
-				answer[5][2][1]="MH 14 EA 5202 Activa";
+				answer[5][2][1]="Insert Vehicle number";
 				answer[5][2][0]="movie";
 				
 				answer[5][3][1]="Near Reading Hall's entry (left side)";
@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
 			{
 				answer[6][1][0] = "deewar";
 				
-				answer[6][2][1]="MH 14 CA 9120 Activa";
+				answer[6][2][1]="Insert Vehicle number";
 				answer[6][2][0]="digit";
 				
 				answer[6][3][1]="Near Reading Hall's entry (right side)";
@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
 			{
 				answer[7][1][0] = "sunil shetty";
 				
-				answer[7][2][1]="MH 14 CU 9382 Pep";
+				answer[7][2][1]="Insert Vehicle number";
 				answer[7][2][0]="card";
 				
 				answer[7][3][1]="Explore the TT table";
@@ -94,7 +94,7 @@ public class MainActivity extends Activity {
 			{
 				answer[8][1][0] = "housefull 2";
 				
-				answer[8][2][1]="MH 14 CE 4210 Dio";
+				answer[8][2][1]="Insert Vehicle number";
 				answer[8][2][0]="rack";
 				
 				answer[8][3][1]="Ask around in the Xerox Center";
@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
 			{
 				answer[9][1][0] = "raja babu";
 				
-				answer[9][2][1]="MH 14 DU 871 Activa";
+				answer[9][2][1]="Insert Vehicle number";
 				answer[9][2][0]="swim";
 				
 				answer[9][3][1]="Ask around in the Xerox Center";
@@ -112,7 +112,7 @@ public class MainActivity extends Activity {
 			{
 				answer[10][1][0] = "rajesh khanna";
 				
-				answer[10][2][1]="MH 14 DR 8440 Pulsar";
+				answer[10][2][1]="Insert Vehicle number";
 				answer[10][2][0]="baby";
 				
 				answer[10][3][1]="Ask around in the Xerox Center";
@@ -121,7 +121,7 @@ public class MainActivity extends Activity {
 			{
 				answer[11][1][0] = "priyanka chopra";
 				
-				answer[11][2][1]="MH 14 DE 2557 Discover";
+				answer[11][2][1]="Insert Vehicle number";
 				answer[11][2][0]="hand";
 				
 				answer[11][3][1]="Ask around in the Xerox Center";
@@ -130,7 +130,7 @@ public class MainActivity extends Activity {
 			{
 				answer[12][1][0] = "mr. india";
 				
-				answer[12][2][1]="MH 14 DP 2765 Activa";
+				answer[12][2][1]="Insert Vehicle number";
 				answer[12][2][0]="goal";
 				
 				answer[12][3][1]="Ask around in the Xerox Center";
@@ -139,7 +139,7 @@ public class MainActivity extends Activity {
 			{
 				answer[13][1][0] = "wanted";
 				
-				answer[13][2][1]="MH 14 8246 Activa Black";
+				answer[13][2][1]="Insert Vehicle number";
 				answer[13][2][0]="fail";
 				
 				answer[13][3][1]="Ask around in the Canteen";
@@ -148,7 +148,7 @@ public class MainActivity extends Activity {
 			{
 				answer[14][1][0] = "rajesh khanna";
 				
-				answer[14][2][1]="MH 14 871 Activa Black";
+				answer[14][2][1]="Insert Vehicle number";
 				answer[14][2][0]="live";
 				
 				answer[14][3][1]="Ask around in the Canteen";
@@ -157,7 +157,7 @@ public class MainActivity extends Activity {
 			{
 				answer[15][1][0] = "sunny deol";
 				
-				answer[15][2][1]="MH 14 5482 Black Access";
+				answer[15][2][1]="Insert Vehicle number";
 				answer[15][2][0]="clue";
 				
 				answer[15][3][1]="Ask around in the Canteen";
@@ -166,7 +166,7 @@ public class MainActivity extends Activity {
 			{
 				answer[16][1][0] = "aamir khan";
 				
-				answer[16][2][1]="MH 14 EK 2771";
+				answer[16][2][1]="Insert Vehicle number";
 				answer[16][2][0]="hair";
 				
 				answer[16][3][1]="Ask around in the Canteen";
@@ -175,7 +175,7 @@ public class MainActivity extends Activity {
 			{
 				answer[17][1][0] = "shashi kapoor";
 				
-				answer[17][2][1]="MH 14 DS 1034 - R15";
+				answer[17][2][1]="Insert Vehicle number";
 				answer[17][2][0]="role";
 				
 				answer[17][3][1]="Ask around in the Canteen";
@@ -184,7 +184,7 @@ public class MainActivity extends Activity {
 			{
 				answer[18][1][0] = "shahrukh khan";
 				
-				answer[18][2][1]="MH 14 7508 Pep++";
+				answer[18][2][1]="Insert Vehicle number";
 				answer[18][2][0]="music";
 				
 				answer[18][3][1]="Go in Library's first lane (right-side)";
@@ -193,7 +193,7 @@ public class MainActivity extends Activity {
 			{
 				answer[19][1][0] = "arjun rampal";
 				
-				answer[19][2][1]="MH 14 DB 8557";
+				answer[19][2][1]="Insert Vehicle number";
 				answer[19][2][0]="beat";
 				
 				answer[19][3][1]="Go in Library's first lane (left-side)";
@@ -202,7 +202,7 @@ public class MainActivity extends Activity {
 			{
 				answer[20][1][0] = "sonakshi sinha";
 				
-				answer[20][2][1]="MH 14 EL 9337";
+				answer[20][2][1]="Insert Vehicle number";
 				answer[20][2][0]="down";
 				
 				answer[20][3][1]="Go in Library's second lane (right-side)";
@@ -211,7 +211,7 @@ public class MainActivity extends Activity {
 			{
 				answer[21][1][0] = "rakhi";
 				
-				answer[21][2][1]="MH 14 EK 146 Wego";
+				answer[21][2][1]="Insert Vehicle number";
 				answer[21][2][0]="bark";
 				
 				answer[21][3][1]="Go in Library's second lane (left-side)";
@@ -220,7 +220,7 @@ public class MainActivity extends Activity {
 			{
 				answer[22][1][0] = "deepika padukone";
 				
-				answer[22][2][1]="MH 14 DP 7701";
+				answer[22][2][1]="Insert Vehicle number";
 				answer[22][2][0]="keep";
 				
 				answer[22][3][1]="Go in Library's third lane (right-side)";
@@ -229,7 +229,7 @@ public class MainActivity extends Activity {
 			{
 				answer[23][1][0] = "jaya bachchan";
 				
-				answer[23][2][1]="MH 14 EG 6208";
+				answer[23][2][1]="Insert Vehicle number";
 				answer[23][2][0]="look";
 				
 				answer[23][3][1]="Go in Library's third lane (left-side)";
@@ -238,7 +238,7 @@ public class MainActivity extends Activity {
 			{
 				answer[24][1][0] = "ajay devgan";
 				
-				answer[24][2][1]="MH 14 5049 Pleasure";
+				answer[24][2][1]="Insert Vehicle number";
 				answer[24][2][0]="mule";
 				
 				answer[24][3][1]="TnP Cabin 1";
@@ -247,7 +247,7 @@ public class MainActivity extends Activity {
 			{
 				answer[25][1][0] = "dabaangg";
 				
-				answer[25][2][1]="MH 28 Y 2383";
+				answer[25][2][1]="Insert Vehicle number";
 				answer[25][2][0]="ring";
 				
 				answer[25][3][1]="TnP Cabin 2";
